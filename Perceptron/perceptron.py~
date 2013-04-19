@@ -1,0 +1,43 @@
+import random
+
+""" This is the class for the Perceptrons.  Each perceptron has no idea which numbers 
+it is deciding between, so it will need to be provided with information about it's expected
+output during the training stage.
+"""
+
+class Perceptron:
+    def __init__(self):
+        """Intialize the perceptron with random weights and a random bias
+        """
+        self.attr = []
+        for i in range(64):
+            self.attr.append(random.uniform(-1,1))
+        self.bias = random.uniform(-1,1)
+
+    def classify(self, data):
+        """compute the sgn function for the given data
+        """
+        total = self.bias
+        for i in range(64):
+            total += self.attr[i] * int(data[i])
+        if total > 0:
+            return 1
+        else:
+            return -1
+
+    def train(self, learningRate, data, expected):
+        """Used during the training process to learn on each instance.
+        the expected value must be either a 1 or a -1
+        """
+        result = self.classify(data)
+        if result != expected:
+            for i in range(64):
+                self.attr[i] += learningRate * (expected - result) * data[i]
+        return result
+
+
+if __name__ == "__main__":
+    random.seed()
+    pass
+else:
+    random.seed()
