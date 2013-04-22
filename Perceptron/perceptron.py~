@@ -32,7 +32,7 @@ class Perceptron:
         result = self.classify(data)
         if result != expected:
             for i in range(64):
-                self.attr[i] += learningRate * (expected - result) * data[i]
+                self.attr[i] += learningRate * (expected - result) * int(data[i])
         return result
 
 

@@ -1,11 +1,13 @@
 from __future__ import division  #import real number division
 from perceptron import *
+import formatOutput
 
 perceptrons = {}
 learningRate = 0.2
 
 def createPerceptrons():
-    """Initializes the 45 perceptrons"""
+    """Initializes the 45 perceptrons
+    """
     global perceptrons
     for i in range(10):
         for j in range(i+1,10):
@@ -13,7 +15,8 @@ def createPerceptrons():
 
 def getData(fname):
     """Retrieves the training data from optdigits.train and stores
-    the data in a dict sorted by the classifier"""
+    the data in a dict sorted by the classifier
+    """
     entries = {}
     for i in range(10):
         entries[i] = []
@@ -23,8 +26,8 @@ def getData(fname):
             entries[index].append(line.split(','))
     return entries
 
-def runEpoch(trainingData):
-    """This runs the training data through the perceptrons for 
+def runEpoch(trainingData, key):
+    """This runs the training data through the given perceptron for 
     a single epoch and returns the accuracy.  The trainingData
     is a dict of attributes sorted by actual classification.
     """
@@ -33,27 +36,26 @@ def runEpoch(trainingData):
     total = 0
     for digit, data in trainingData.items():
         for d in data:
-            for i in range(10):
-                if i < digit:
-                    c = perceptrons[str(i)+str(digit)].train(learningRate,d,-1)
-                    if c == -1:
-                        correct += 1
-                    total += 1
-                elif i > digit:
-                    c = perceptrons[str(digit)+str(i)].train(learningRate,d,1)
-                    if c == 1:
-                        correct += 1
-                    total += 1
+            if str(digit) == key[0]:
+                expected = -1
+            elif str(digit) == key[1]:
+                expected = 1
+            else:
+                break
+            c = perceptrons[key].train(learningRate,d,expected)
+            if c == expected:
+                correct += 1
+            total += 1
     return correct / total
 
-def testPerceptrons():
+def testPerceptrons(testData, key):
     testData = getData('optdigits.test')
     cl = {}
     for i in range(10):
         cl[i] = {}
         for j in range(10):
             cl[i][j] = 0
-    for digit, data in trainingData.items():
+    for digit, data in testData.items():
         for d in data:
             for i in range(10):
                 if i < digit:
@@ -73,12 +75,18 @@ def testPerceptrons():
 if __name__ == "__main__":
     createPerceptrons()
     trainingData = getData('optdigits.train')
-    lastAcc = 0
-    runs = 1
-    curAcc = runEpoch(trainingData)
-    while curAcc > lastAcc:
-        lastAcc = curAcc
-        curAcc = runEpoch(trainingData)
-        runs += 1
-    print curAcc, lastAcc, runs
-    print testPerceptrons()
+    lastAcc = {}
+    runs = {}
+    for key in perceptrons.keys():
+        lastAcc[key] = 0
+        runs[key] = 1
+    for key in sorted(perceptrons.keys()):
+        curAcc = runEpoch(trainingData, key)
+        while curAcc > lastAcc[key]:
+            lastAcc[key] = curAcc
+            curAcc = runEpoch(trainingData, key)
+            runs[key] += 1
+        print key, curAcc, lastAcc[key], runs[key]
+    cl = testPerceptrons()
+    for i in range(10):
+        print cl[i]
