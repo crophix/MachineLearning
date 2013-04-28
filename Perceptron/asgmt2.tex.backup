@@ -10,1121 +10,217 @@
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 1\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 91 & 0\\
- &3 & 92\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 89 & 2\\
+ &2 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 2\\
-Number of Epochs & & 7\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 95\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
 Test Accuracy & & 0.985\\
-Confusion Matrix & 105 & 0\\
- &3 & 92\\ \hline
+Confusion Matrix & 104 & 1\\
+ &2 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.905\\
-Confusion Matrix & 84 & 0\\
- &17 & 78\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 82 & 2\\
+ &2 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 5\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.896\\
-Confusion Matrix & 88 & 0\\
- &19 & 76\\ \hline
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
 Test Accuracy & & 0.989\\
-Confusion Matrix & 89 & 2\\
- &0 & 95\\ \hline
+Confusion Matrix & 90 & 1\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 7\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 1.000\\
 Test Accuracy & & 0.984\\
-Confusion Matrix & 94 & 0\\
- &3 & 92\\ \hline
+Confusion Matrix & 92 & 2\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 8\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.989\\
-Test Accuracy & & 0.923\\
-Confusion Matrix & 88 & 0\\
- &14 & 81\\ \hline
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 0 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.980\\
-Confusion Matrix & 104 & 0\\
- &4 & 91\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 102 & 2\\
+ &1 & 94\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 1 & 2\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.935\\
-Confusion Matrix & 94 & 0\\
- &12 & 79\\ \hline
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 90\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 1 & 3\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.990\\
-Confusion Matrix & 105 & 0\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 104 & 1\\
  &2 & 89\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 1 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.480\\
-Confusion Matrix & 84 & 0\\
- &91 & 0\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 82 & 2\\
+ &2 & 89\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 1 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.542\\
-Confusion Matrix & 88 & 0\\
- &82 & 9\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.991\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 89 & 2\\
- &1 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.991\\
-Test Accuracy & & 0.903\\
-Confusion Matrix & 94 & 0\\
- &18 & 73\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.980\\
-Test Accuracy & & 0.575\\
-Confusion Matrix & 88 & 0\\
- &76 & 15\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 9\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.656\\
-Confusion Matrix & 104 & 0\\
- &67 & 24\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.789\\
-Confusion Matrix & 105 & 0\\
- &42 & 52\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 4\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.994\\
-Confusion Matrix & 83 & 1\\
- &0 & 94\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.505\\
-Confusion Matrix & 88 & 0\\
- &90 & 4\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 91 & 0\\
- &0 & 94\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.979\\
-Confusion Matrix & 94 & 0\\
- &4 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.835\\
-Confusion Matrix & 88 & 0\\
- &30 & 64\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 9\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.707\\
-Confusion Matrix & 104 & 0\\
- &58 & 36\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.979\\
-Confusion Matrix & 80 & 4\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.984\\
-Test Accuracy & & 0.513\\
-Confusion Matrix & 88 & 0\\
- &94 & 11\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 90 & 1\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.989\\
-Test Accuracy & & 0.896\\
-Confusion Matrix & 88 & 0\\
- &20 & 85\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.598\\
-Confusion Matrix & 104 & 0\\
- &84 & 21\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.808\\
-Confusion Matrix & 88 & 0\\
- &33 & 51\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.863\\
-Confusion Matrix & 91 & 0\\
- &24 & 60\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 7\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.781\\
-Confusion Matrix & 94 & 0\\
- &39 & 45\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.979\\
-Test Accuracy & & 0.791\\
-Confusion Matrix & 88 & 0\\
- &36 & 48\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.612\\
-Confusion Matrix & 104 & 0\\
- &73 & 11\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.989\\
-Confusion Matrix & 90 & 1\\
- &1 & 87\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 7\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 88\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.500\\
-Confusion Matrix & 88 & 0\\
- &88 & 0\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.568\\
-Confusion Matrix & 104 & 0\\
- &83 & 5\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 8\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.894\\
-Confusion Matrix & 88 & 0\\
- &19 & 72\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 104 & 0\\
- &1 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 7 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 88 & 0\\
- &3 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 7 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.884\\
-Confusion Matrix & 104 & 0\\
- &23 & 71\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 8 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.682\\
-Confusion Matrix & 103 & 1\\
- &60 & 28\\ \hline
-\end{tabular}
-\end{minipage}
-\paragraph{Summary} For learning rate 0.20 the total accuracy on the training data was 0.993, and the total accuracy on the test data was 0.841.  The average number of epochs needed by each perceptron was 5.289.
-\paragraph{Learning Rate 0.80:}Data from the training and testing.\\
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 1\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 91 & 0\\
- &3 & 92\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 2\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.571\\
-Confusion Matrix & 94 & 0\\
- &81 & 14\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.985\\
-Confusion Matrix & 105 & 0\\
- &3 & 92\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.922\\
-Confusion Matrix & 83 & 1\\
- &13 & 82\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.814\\
-Confusion Matrix & 88 & 0\\
- &34 & 61\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.946\\
-Confusion Matrix & 81 & 10\\
- &0 & 95\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.989\\
-Confusion Matrix & 94 & 0\\
- &2 & 93\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.989\\
-Test Accuracy & & 0.967\\
-Confusion Matrix & 88 & 0\\
- &6 & 89\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.990\\
-Confusion Matrix & 104 & 0\\
- &2 & 93\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 2\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 94 & 0\\
- &3 & 88\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 3\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 105 & 0\\
- &1 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.986\\
-Test Accuracy & & 0.480\\
-Confusion Matrix & 84 & 0\\
- &91 & 0\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.966\\
-Confusion Matrix & 88 & 0\\
- &6 & 85\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.991\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 89 & 2\\
- &1 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.986\\
-Test Accuracy & & 0.605\\
-Confusion Matrix & 94 & 0\\
- &73 & 18\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.980\\
-Test Accuracy & & 0.564\\
-Confusion Matrix & 88 & 0\\
- &78 & 13\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 9\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.733\\
-Confusion Matrix & 104 & 0\\
- &52 & 39\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.819\\
-Confusion Matrix & 105 & 0\\
- &36 & 58\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.972\\
-Confusion Matrix & 84 & 0\\
- &5 & 89\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.797\\
-Confusion Matrix & 88 & 0\\
- &37 & 57\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
 Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.984\\
 Confusion Matrix & 89 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.991\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.983\\
+Confusion Matrix & 86 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 3\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.980\\
+Confusion Matrix & 103 & 2\\
  &2 & 92\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 94 & 0\\
- &3 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.984\\
-Test Accuracy & & 0.956\\
-Confusion Matrix & 88 & 0\\
- &8 & 86\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.985\\
-Test Accuracy & & 0.566\\
-Confusion Matrix & 104 & 0\\
- &86 & 8\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 4\\
-Number of Epochs & & 7\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 83 & 1\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.984\\
-Test Accuracy & & 0.544\\
-Confusion Matrix & 88 & 0\\
- &88 & 17\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.985\\
-Confusion Matrix & 88 & 3\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 105\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.989\\
-Test Accuracy & & 0.891\\
-Confusion Matrix & 88 & 0\\
- &21 & 84\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 3 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.498\\
-Confusion Matrix & 104 & 0\\
- &105 & 0\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.895\\
-Confusion Matrix & 88 & 0\\
- &18 & 66\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 6\\
-Number of Epochs & & 7\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.989\\
-Confusion Matrix & 89 & 2\\
- &0 & 84\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 7\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.961\\
-Confusion Matrix & 94 & 0\\
- &7 & 77\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.979\\
-Test Accuracy & & 0.686\\
-Confusion Matrix & 88 & 0\\
- &54 & 30\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 4 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.553\\
-Confusion Matrix & 104 & 0\\
- &84 & 0\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.994\\
-Confusion Matrix & 90 & 1\\
- &0 & 88\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.797\\
-Confusion Matrix & 94 & 0\\
- &37 & 51\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.500\\
-Confusion Matrix & 88 & 0\\
- &88 & 0\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 5 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.552\\
-Confusion Matrix & 104 & 0\\
- &86 & 2\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 8\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.888\\
-Confusion Matrix & 88 & 0\\
- &20 & 71\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 104 & 0\\
- &0 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 7 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.973\\
-Confusion Matrix & 87 & 1\\
- &4 & 90\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 7 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.667\\
-Confusion Matrix & 104 & 0\\
- &66 & 28\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 8 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.714\\
-Confusion Matrix & 102 & 2\\
- &53 & 35\\ \hline
-\end{tabular}
-\end{minipage}
-\paragraph{Summary} For learning rate 0.80 the total accuracy on the training data was 0.993, and the total accuracy on the test data was 0.836.  The average number of epochs needed by each perceptron was 5.267.
-\paragraph{Learning Rate 0.05:}Data from the training and testing.\\
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 1\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.978\\
-Confusion Matrix & 91 & 0\\
- &4 & 91\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 2\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.985\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 94 & 0\\
- &1 & 94\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 3\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 105 & 0\\
- &1 & 94\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.866\\
-Confusion Matrix & 84 & 0\\
- &24 & 71\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.847\\
-Confusion Matrix & 88 & 0\\
- &28 & 67\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 91 & 0\\
- &0 & 95\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 94 & 0\\
- &0 & 95\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.989\\
-Test Accuracy & & 0.945\\
-Confusion Matrix & 88 & 0\\
- &10 & 85\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 0 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.990\\
-Confusion Matrix & 104 & 0\\
- &2 & 93\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 2\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.973\\
-Confusion Matrix & 94 & 0\\
- &5 & 86\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.679\\
-Confusion Matrix & 105 & 0\\
- &63 & 28\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.986\\
-Test Accuracy & & 0.577\\
-Confusion Matrix & 84 & 0\\
- &74 & 17\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.575\\
-Confusion Matrix & 88 & 0\\
- &76 & 15\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.991\\
-Test Accuracy & & 0.978\\
-Confusion Matrix & 89 & 2\\
- &2 & 89\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.991\\
-Test Accuracy & & 0.865\\
-Confusion Matrix & 94 & 0\\
- &25 & 66\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.980\\
-Test Accuracy & & 0.570\\
-Confusion Matrix & 88 & 0\\
- &77 & 14\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 1 & 9\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.887\\
-Confusion Matrix & 104 & 0\\
- &22 & 69\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 2 & 3\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.769\\
-Confusion Matrix & 105 & 0\\
- &46 & 48\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 4\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 84 & 0\\
- &0 & 94\\ \hline
+Test Accuracy & & 0.983\\
+Confusion Matrix & 82 & 2\\
+ &1 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 5\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.731\\
-Confusion Matrix & 88 & 0\\
- &49 & 45\\ \hline
+Test Accuracy & & 0.984\\
+Confusion Matrix & 87 & 1\\
+ &2 & 92\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 6\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.995\\
-Confusion Matrix & 91 & 0\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 89 & 2\\
  &1 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 7\\
-Number of Epochs & & 7\\
+Number of Epochs & & 3\\
 Training Accuracy & & 1.000\\
 Test Accuracy & & 0.984\\
 Confusion Matrix & 92 & 2\\
@@ -1134,47 +230,499 @@ Confusion Matrix & 92 & 2\\
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 8\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.709\\
-Confusion Matrix & 88 & 0\\
- &53 & 41\\ \hline
+Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 92\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 2 & 9\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.970\\
-Confusion Matrix & 104 & 0\\
- &6 & 88\\ \hline
+Test Accuracy & & 0.980\\
+Confusion Matrix & 102 & 2\\
+ &2 & 92\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 4\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 1.000\\
-Confusion Matrix & 84 & 0\\
- &0 & 105\\ \hline
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 83 & 1\\
+ &1 & 104\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 5\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.984\\
-Test Accuracy & & 0.777\\
-Confusion Matrix & 88 & 0\\
- &43 & 62\\ \hline
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 6\\
-Number of Epochs & & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 90 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 93 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.989\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.981\\
+Confusion Matrix & 102 & 2\\
+ &2 & 103\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.988\\
+Confusion Matrix & 87 & 1\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.983\\
+Confusion Matrix & 93 & 1\\
+ &2 & 82\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 86 & 2\\
+ &2 & 82\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 102 & 2\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 103 & 1\\
+ &2 & 86\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.991\\
+Test Accuracy & & 1.000\\
+Confusion Matrix & 94 & 0\\
+ &0 & 91\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 9\\
+Number of Epochs & & 4\\
+Training Accuracy & & 1.000\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 7 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 86 & 2\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 7 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 102 & 2\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 8 & 9\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\paragraph{Summary} For learning rate 0.20 the total accuracy on the training data was 0.990, and the total accuracy on the test data was 0.986.  The average number of epochs needed by each perceptron was 2.267.
+\paragraph{Learning Rate 0.80:}Data from the training and testing.\\
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 1\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 89 & 2\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 2\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 3\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.989\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 104 & 1\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 4\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 82 & 2\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 5\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 7\\
+Number of Epochs & & 3\\
+Training Accuracy & & 1.000\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.989\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.980\\
+Confusion Matrix & 102 & 2\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 2\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 3\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 103 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 4\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 82 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 6\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.991\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 89 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 7\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.991\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.979\\
+Confusion Matrix & 102 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 3\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 104 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 4\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 83 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 5\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 7\\
+Number of Epochs & & 3\\
+Training Accuracy & & 1.000\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 92 & 2\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 8\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 9\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 4\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 83 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.984\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 6\\
+Number of Epochs & & 5\\
 Training Accuracy & & 1.000\\
 Test Accuracy & & 0.995\\
 Confusion Matrix & 90 & 1\\
@@ -1184,88 +732,88 @@ Confusion Matrix & 90 & 1\\
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.472\\
-Confusion Matrix & 94 & 0\\
- &105 & 0\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 93 & 1\\
+ &1 & 104\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 8\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.989\\
-Test Accuracy & & 0.974\\
-Confusion Matrix & 88 & 0\\
- &5 & 100\\ \hline
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 3 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.646\\
-Confusion Matrix & 104 & 0\\
- &74 & 31\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.981\\
+Confusion Matrix & 102 & 2\\
+ &2 & 103\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 4 & 5\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.924\\
-Confusion Matrix & 88 & 0\\
- &13 & 71\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.988\\
+Confusion Matrix & 87 & 1\\
+ &1 & 83\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 4 & 6\\
-Number of Epochs & & 6\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.983\\
-Confusion Matrix & 91 & 0\\
- &3 & 81\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 83\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 4 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.955\\
-Confusion Matrix & 94 & 0\\
- &8 & 76\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.983\\
+Confusion Matrix & 93 & 1\\
+ &2 & 82\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 4 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.878\\
-Confusion Matrix & 88 & 0\\
- &21 & 63\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 86 & 2\\
+ &2 & 82\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 4 & 9\\
-Number of Epochs & & 5\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.707\\
-Confusion Matrix & 104 & 0\\
- &55 & 29\\ \hline
+Test Accuracy & & 0.984\\
+Confusion Matrix & 102 & 2\\
+ &1 & 83\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 5 & 6\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
 Test Accuracy & & 0.989\\
 Confusion Matrix & 90 & 1\\
  &1 & 87\\ \hline
@@ -1274,92 +822,547 @@ Confusion Matrix & 90 & 1\\
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 5 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.973\\
-Confusion Matrix & 94 & 0\\
- &5 & 83\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 87\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 5 & 8\\
-Number of Epochs & & 7\\
+Number of Epochs & & 2\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.938\\
-Confusion Matrix & 88 & 0\\
- &11 & 77\\ \hline
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 87\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 5 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.980\\
-Test Accuracy & & 0.578\\
-Confusion Matrix & 104 & 0\\
- &81 & 7\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 87\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 6 & 7\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.984\\
-Confusion Matrix & 94 & 0\\
- &3 & 88\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 8\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.531\\
-Confusion Matrix & 88 & 0\\
- &84 & 7\\ \hline
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{tabular}{|l | r r|}
-\hline Perceptron & 6 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 1.000\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.991\\
 Test Accuracy & & 1.000\\
-Confusion Matrix & 104 & 0\\
+Confusion Matrix & 94 & 0\\
  &0 & 91\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
 \hline Perceptron & 7 & 8\\
-Number of Epochs & & 6\\
-Training Accuracy & & 1.000\\
-Test Accuracy & & 0.978\\
-Confusion Matrix & 88 & 0\\
- &4 & 90\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 86 & 2\\
+ &1 & 93\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 7 & 9\\
-Number of Epochs & & 5\\
-Training Accuracy & & 0.990\\
-Test Accuracy & & 0.960\\
-Confusion Matrix & 104 & 0\\
- &8 & 86\\ \hline
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.980\\
+Confusion Matrix & 102 & 2\\
+ &2 & 92\\ \hline
 \end{tabular}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \begin{tabular}{|l | r r|}
 \hline Perceptron & 8 & 9\\
-Number of Epochs & & 5\\
+Number of Epochs & & 3\\
 Training Accuracy & & 0.990\\
-Test Accuracy & & 0.542\\
-Confusion Matrix & 104 & 0\\
- &88 & 0\\ \hline
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 87\\ \hline
 \end{tabular}
 \end{minipage}
-\paragraph{Summary} For learning rate 0.05 the total accuracy on the training data was 0.992, and the total accuracy on the test data was 0.859.  The average number of epochs needed by each perceptron was 5.244.
+\paragraph{Summary} For learning rate 0.80 the total accuracy on the training data was 0.989, and the total accuracy on the test data was 0.986.  The average number of epochs needed by each perceptron was 2.311.
+\paragraph{Learning Rate 0.05:}Data from the training and testing.\\
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 1\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 90 & 1\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 2\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 3\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.989\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 104 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 4\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 82 & 2\\
+ &2 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 5\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 1.000\\
+Confusion Matrix & 91 & 0\\
+ &0 & 95\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.989\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 0 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 94\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 2\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 93 & 1\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 3\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.980\\
+Confusion Matrix & 103 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 4\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.971\\
+Confusion Matrix & 82 & 2\\
+ &3 & 88\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 89 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.991\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 92 & 2\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.978\\
+Confusion Matrix & 86 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 1 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.979\\
+Confusion Matrix & 102 & 2\\
+ &2 & 89\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 3\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 104 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 4\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 83 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 5\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 6\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 7\\
+Number of Epochs & & 5\\
+Training Accuracy & & 1.000\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 92 & 2\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.984\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 2 & 9\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 4\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 83 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 90 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 93 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.984\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 87 & 1\\
+ &1 & 104\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 3 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.981\\
+Confusion Matrix & 102 & 2\\
+ &2 & 103\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 5\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.988\\
+Confusion Matrix & 87 & 1\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 89 & 2\\
+ &2 & 82\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.977\\
+Confusion Matrix & 86 & 2\\
+ &2 & 82\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 4 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 102 & 2\\
+ &1 & 83\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 6\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 90 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 7\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 93 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 5 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.985\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 103 & 1\\
+ &2 & 86\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 7\\
+Number of Epochs & & 3\\
+Training Accuracy & & 1.000\\
+Test Accuracy & & 1.000\\
+Confusion Matrix & 94 & 0\\
+ &0 & 91\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.989\\
+Confusion Matrix & 87 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 6 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.995\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 90\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 7 & 8\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.984\\
+Confusion Matrix & 87 & 1\\
+ &2 & 92\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 7 & 9\\
+Number of Epochs & & 2\\
+Training Accuracy & & 0.986\\
+Test Accuracy & & 0.985\\
+Confusion Matrix & 102 & 2\\
+ &1 & 93\\ \hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{tabular}{|l | r r|}
+\hline Perceptron & 8 & 9\\
+Number of Epochs & & 3\\
+Training Accuracy & & 0.990\\
+Test Accuracy & & 0.990\\
+Confusion Matrix & 103 & 1\\
+ &1 & 87\\ \hline
+\end{tabular}
+\end{minipage}
+\paragraph{Summary} For learning rate 0.05 the total accuracy on the training data was 0.990, and the total accuracy on the test data was 0.986.  The average number of epochs needed by each perceptron was 2.267.
+
+\paragraph{Overall Summary} The accuracy of the perceptrons was really quite impressive.  Consistently averaging at nearly 99\% accuracy with only a minor reduction on the test data I was astounded.  The piece that surprised me the most was how few cycles through the training data were required in order to produce this accuracy.  The vast majority of the perceptrons had reached their peak accuracy after only two passes through the data, with one or two taking more.  Admittedly a single pass gives $9000$ items to train on since each row can be used in 9 perceptrons.  I still expected higher numbers.  I was also surprised how small the impact changing the learning rate had on the results.  There really wasn't any noticable change in accuracy or the number of epochs.  There weren't any specific perceptrons that performed significantly worse than the others.  Perceptrons $45$, 
+
 \end{document}

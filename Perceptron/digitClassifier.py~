@@ -4,12 +4,12 @@ import output
 
 perceptrons = {}
 learningRate = 0.2
-output.learningRate = 0.2
 
 def createPerceptrons():
     """Initializes the 45 perceptrons
     """
     global perceptrons
+    perceptrons.clear()
     for i in range(10):
         for j in range(i+1,10):
             perceptrons[str(i)+str(j)] = Perceptron()
@@ -63,11 +63,11 @@ def testPerceptrons(testData, key):
                 expected = 1
             else:
                 break
-            c = perceptrons[key].train(learningRate,d,expected)
+            c = perceptrons[key].classify(d)
             if c == -1 and expected == -1:
                 correct += 1
                 output.confMat[key]['TN'] += 1
-            elif c == -1 and expect == 1:
+            elif c == -1 and expected == 1:
                 output.confMat[key]['FP'] += 1
             if c == 1 and expected == 1:
                 correct += 1
@@ -82,8 +82,7 @@ def runTests():
     trainingData = getData('optdigits.train')
     for key in sorted(perceptrons.keys()):
         curAcc = runEpoch(trainingData, key)
-        while curAcc > output.trainAcc[key]:
-
+        while curAcc > output.trainAcc[key] or output.numEpochs[key] < 10:
             output.trainAcc[key] = curAcc
             curAcc = runEpoch(trainingData, key)
             output.numEpochs[key] += 1
@@ -91,6 +90,17 @@ def runTests():
     for key in sorted(perceptrons.keys()):
         output.testAcc[key] = testPerceptrons(testData, key)
 
+
 if __name__ == "__main__":
+    output.startDoc()
     runTests()
     output.outputData()
+    output.reset(0.8)
+    learningRate = 0.8
+    runTests()
+    output.outputData()
+    output.reset(0.05)
+    learningRate = 0.05
+    runTests()
+    output.outputData()
+    output.endDoc()
