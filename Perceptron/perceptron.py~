@@ -14,16 +14,19 @@ class Perceptron:
             self.attr.append(random.uniform(-1,1))
         self.bias = random.uniform(-1,1)
 
-    def classify(self, data):
+    def classify(self, data, sgn=True):
         """compute the sgn function for the given data
         """
         total = self.bias
         for i in range(64):
             total += self.attr[i] * int(data[i])
-        if total > 0:
-            return 1
+        if sgn:
+            if total > 0:
+                return 1
+            else:
+                return -1
         else:
-            return -1
+            return total
 
     def train(self, learningRate, data, expected):
         """Used during the training process to learn on each instance.
@@ -32,7 +35,7 @@ class Perceptron:
         result = self.classify(data)
         if result != expected:
             for i in range(64):
-                self.attr[i] += learningRate * (expected - result) * data[i]
+                self.attr[i] += learningRate * (expected - result) * int(data[i])
         return result
 
 

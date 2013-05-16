@@ -1,19 +1,23 @@
 from __future__ import division  #import real number division
 from perceptron import *
+import output
 
 perceptrons = {}
 learningRate = 0.2
 
 def createPerceptrons():
-    """Initializes the 45 perceptrons"""
+    """Initializes the 45 perceptrons
+    """
     global perceptrons
+    perceptrons.clear()
     for i in range(10):
         for j in range(i+1,10):
             perceptrons[str(i)+str(j)] = Perceptron()
 
 def getData(fname):
     """Retrieves the training data from optdigits.train and stores
-    the data in a dict sorted by the classifier"""
+    the data in a dict sorted by the classifier
+    """
     entries = {}
     for i in range(10):
         entries[i] = []
@@ -23,8 +27,8 @@ def getData(fname):
             entries[index].append(line.split(','))
     return entries
 
-def runEpoch(trainingData):
-    """This runs the training data through the perceptrons for 
+def runEpoch(trainingData, key):
+    """This runs the training data through the given perceptron for 
     a single epoch and returns the accuracy.  The trainingData
     is a dict of attributes sorted by actual classification.
     """
@@ -33,52 +37,70 @@ def runEpoch(trainingData):
     total = 0
     for digit, data in trainingData.items():
         for d in data:
-            for i in range(10):
-                if i < digit:
-                    c = perceptrons[str(i)+str(digit)].train(learningRate,d,-1)
-                    if c == -1:
-                        correct += 1
-                    total += 1
-                elif i > digit:
-                    c = perceptrons[str(digit)+str(i)].train(learningRate,d,1)
-                    if c == 1:
-                        correct += 1
-                    total += 1
+            if str(digit) == key[0]:
+                expected = -1
+            elif str(digit) == key[1]:
+                expected = 1
+            else:
+                break
+            c = perceptrons[key].train(learningRate,d,expected)
+            if c == expected:
+                correct += 1
+            total += 1
     return correct / total
 
-def testPerceptrons():
-    testData = getData('optdigits.test')
-    cl = {}
-    for i in range(10):
-        cl[i] = {}
-        for j in range(10):
-            cl[i][j] = 0
-    for digit, data in trainingData.items():
+def testPerceptrons(testData, key):
+    """Runs the testData through the given perceptron and returns the accuracy
+    and the number of classifications of each type
+    """
+    correct = 0
+    total = 0
+    for digit, data in testData.items():
         for d in data:
-            for i in range(10):
-                if i < digit:
-                    c = perceptrons[str(i)+str(digit)].train(learningRate,d,-1)
-                    if c == -1:
-                        cl[digit][digit] += 1
-                    else:
-                        cl[digit][i] += 1
-                elif i > digit:
-                    c = perceptrons[str(digit)+str(i)].train(learningRate,d,1)
-                    if c == 1:
-                        cl[digit][digit] += 1
-                    else:
-                        cl[digit][i] += 1
-    return cl
+            if str(digit) == key[0]:
+                expected = -1
+            elif str(digit) == key[1]:
+                expected = 1
+            else:
+                break
+            c = perceptrons[key].classify(d)
+            if c == -1 and expected == -1:
+                correct += 1
+                output.confMat[key]['TN'] += 1
+            elif c == -1 and expected == 1:
+                output.confMat[key]['FP'] += 1
+            if c == 1 and expected == 1:
+                correct += 1
+                output.confMat[key]['TP'] += 1
+            elif c == 1 and expected == -1:
+                output.confMat[key]['FN'] += 1
+            total += 1
+    return correct / total
 
-if __name__ == "__main__":
+def runTests():
     createPerceptrons()
     trainingData = getData('optdigits.train')
-    lastAcc = 0
-    runs = 1
-    curAcc = runEpoch(trainingData)
-    while curAcc > lastAcc:
-        lastAcc = curAcc
-        curAcc = runEpoch(trainingData)
-        runs += 1
-    print curAcc, lastAcc, runs
-    print testPerceptrons()
+    for key in sorted(perceptrons.keys()):
+        curAcc = runEpoch(trainingData, key)
+        while curAcc > output.trainAcc[key] or output.numEpochs[key] < 10:
+            output.trainAcc[key] = curAcc
+            curAcc = runEpoch(trainingData, key)
+            output.numEpochs[key] += 1
+    testData = getData('optdigits.test')
+    for key in sorted(perceptrons.keys()):
+        output.testAcc[key] = testPerceptrons(testData, key)
+
+
+if __name__ == "__main__":
+    output.startDoc()
+    runTests()
+    output.outputData()
+    output.reset(0.8)
+    learningRate = 0.8
+    runTests()
+    output.outputData()
+    output.reset(0.05)
+    learningRate = 0.05
+    runTests()
+    output.outputData()
+    output.endDoc()
