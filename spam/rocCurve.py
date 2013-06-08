@@ -25,6 +25,16 @@ with open('spam.predictions') as f:
 notSpam.sort()
 spam.sort()
 
+tp = 0
+tn = 0
+for s in spam:
+    if s > 0:
+        tp += 1
+for s in notSpam:
+    if s < 0:
+        tn += 1 
+print "accuracy:", float(tp + tn)/c
+
 # Setup a list of evenly spaced thresholds for the ROC curve
 rocPoint = []
 rocPoint.append(c / 21)
@@ -43,15 +53,15 @@ for i in range(c):
     except IndexError:
         b = min(notSpam)-1
     # Pop the larger value and adjust the data
-    if a > b:
-        notSpam.pop()
+    if b > a:
+        spam.pop()
         for j in range(20):
             if i >= rocPoint[j]:
                 data[j]['TP'] += 1
             else:
                 data[j]['FN'] += 1
     else:
-        spam.pop()
+        notSpam.pop()
         for j in range(20):
             if i >= rocPoint[j]:
                 data[j]['FP'] += 1

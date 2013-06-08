@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,algorithmic,algorithm,graphicx}
+\usepackage[margin=1in]{geometry}
+
+
+\title{Machine Learning\\ Assignment 4}
+\author{Daniel Leblanc}
+\date{June 3, 2013}
+
+\begin{document}
+\maketitle
+
+\paragraph{Part I:}
+\subparagraph{1: (a)} Performing the Laplace smoothing on binary attributes means just adding 1 to the numerators and 2 to the denominators.  This results in the following smoothed probabilities:
+\begin{align}
+  Pr(A1=0|+) &= \frac26 &  Pr(A1=1|+) &= \frac46 \notag\\
+  Pr(A2=0|+) &= \frac26 &  Pr(A2=1|+) &= \frac46 \notag\\
+  Pr(A3=0|+) &= \frac36 &  Pr(A3=1|+) &= \frac36 \notag\\
+  Pr(A4=0|+) &= \frac26 &  Pr(A4=1|+) &= \frac46 \notag\\
+  Pr(A1=0|-) &= \frac36 &  Pr(A1=1|-) &= \frac36 \notag\\
+  Pr(A2=0|-) &= \frac46 &  Pr(A2=1|-) &= \frac26 \notag\\
+  Pr(A3=0|-) &= \frac36 &  Pr(A3=1|-) &= \frac36 \notag\\
+  Pr(A4=0|-) &= \frac56 &  Pr(A4=1|-) &= \frac16 \notag
+\end{align}
+\subparagraph{1: (b)} For the $+1$ class:
+\[\frac46 \cdot \frac46 \cdot \frac36 \cdot \frac26 = \frac{96}{1296} \approx 0.0741\]
+For the $-1$ class:
+\[\frac36 \cdot \frac26 \cdot \frac36 \cdot \frac56 = \frac{90}{1296} \approx 0.0694\]
+So $x_9$ would be classified as $+1$.
+
+\subparagraph{2: (a)} For this question I just needed to fill in the values that are provided in the question:
+\begin{center}
+\begin{tabular}{|l|c|}
+  \hline Rep & .7 \\
+  \hline Dem & .3 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+  \hline & ``Right'' & ``Left'' \\
+  \hline Rep & .1 & .9 \\
+  \hline Dem & .9 & .1 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+  \hline & True & False \\
+  \hline ``Right'' & .8 & .2 \\
+  \hline ``Left'' & .5 & .5 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\subparagraph{2: (b)} Using condition probability I get the following:
+\[Pr(Dem|``Left'') = \frac{Pr(``Left''|Dem)Pr(Dem)}{Pr(``Left'')}\]
+Since we don't have the $Pr(``Left'')$ we'll need to calculate that.  It is:
+\[Pr(``Left'') = Pr(``Left''|Rep)Pr(Rep) + Pr(``Left''|Dem)Pr(Dem) = .9 \cdot .7 + .1 \cdot .3 = 0.66\]
+Plugging in the values from the previous step I get:
+\[Pr(Dem|``Left'') = \frac{.1 \cdot .3}{.66} = .045455\]
+\subparagraph{2: (c)} First I need to find the probability that a book has a five-star review and contains``Right'' in the title.  ($Pr(``Right'') = 1- Pr(``Left'')$ from the previous question)
+\[Pr(True \cap ``Right'') = Pr(True|``Right'')Pr(``Right'') = .8 \cdot .34 = .272\]
+From this we can find the probability we are looking for:
+\[Pr(Dem|True \cap ``Right'') = \]
+
+\paragraph{Part II:}
+\subparagraph{} All code for question 1 and 2 are in the file $bayes.py$.  The resulting accuracy on the test set was:
+\[Accuracy = 90.04\%\]
+The confusion Matrix was:
+\begin{center}
+\begin{tabular}{|c|cccccccccc|}
+  \hline
+  &0&1&2&3&4&5&6&7&8&9 \\ \hline
+  0&91&0&0&0&2&0&0&0&0&2 \\
+  1&0&82&0&0&0&0&1&1&6&1 \\
+  2&0&1&86&0&0&0&0&0&5&2 \\
+  3&0&0&0&97&0&1&0&0&1&6 \\
+  4&0&1&0&0&70&0&0&8&1&4 \\
+  5&0&1&1&1&1&73&1&0&3&7 \\
+  6&0&2&0&0&0&0&89&0&0&0 \\
+  7&0&0&1&1&0&0&0&89&3&0 \\
+  8&0&2&0&5&0&3&0&0&76&2 \\
+  9&0&0&0&6&3&0&0&5&2&88 \\
+  \hline
+\end{tabular}
+\end{center}
+Overall the results were much better than I predicted considering how simple the Naive Bayesian classifier is.  The final accuracy was about 10\% better than the best results I got from the decision trees in assignment 1.  The confusions that did occur were similar to the ones that resulted from the decision tree, just much less frequent.  The attributes are certainly not independent.  Each attribute value depends greatly on the neighboring values just by virtue of pen motions.  This realistically doesn't much matter, the lack of independence is balanced across all 10 digits.  Even though dependence errors are introduced, those errors are introduced for all of the digits, resulting in a classfier that still performs well.
+
+\end{document}

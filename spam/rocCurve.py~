@@ -8,7 +8,6 @@ with open('spam.test') as f:
         lineNum += 1
         if l.lstrip()[0] == '-':  #Stop when we reach the first negative instance
             break
-print lineNum
 
 #Read the results from the predictions file and sort into spam/non-spam lists
 notSpam = []
@@ -18,13 +17,23 @@ with open('spam.predictions') as f:
     for l in f:
         c += 1
         if c < lineNum:
-            notSpam.append(float(l))
-        else:
             spam.append(float(l))
+        else:
+            notSpam.append(float(l))
 
 #Sort the lists to find min and max values
 notSpam.sort()
 spam.sort()
+
+tp = 0
+tn = 0
+for s in spam:
+    if s[0] != '-':
+        tp += 1
+for s in notSpam:
+    if s[0] == '-':
+        tn += 1 
+print "accuracy:", float(tp + tn)/c
 
 # Setup a list of evenly spaced thresholds for the ROC curve
 rocPoint = []
@@ -44,15 +53,15 @@ for i in range(c):
     except IndexError:
         b = min(notSpam)-1
     # Pop the larger value and adjust the data
-    if a > b:
-        notSpam.pop()
+    if b > a:
+        spam.pop()
         for j in range(20):
             if i >= rocPoint[j]:
                 data[j]['TP'] += 1
             else:
                 data[j]['FN'] += 1
     else:
-        spam.pop()
+        notSpam.pop()
         for j in range(20):
             if i >= rocPoint[j]:
                 data[j]['FP'] += 1

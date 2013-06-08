@@ -1,0 +1,43 @@
+from __future__ import division
+from math import *
+
+total = [0 for a in range(10)]
+data = [[[0 for a in range(4)] for b in range(64)] for c in range(10)]
+with open('optdigits.train') as f:
+    for line in f:
+        l = line.split(',')
+        c = int(l.pop(-1))
+        total[c] += 1
+        for i in range(len(l)):
+            val = max(int(l[i])-1, 0)
+            data[c][i][int(val/4)] += 1
+
+pc = [total[i]/sum(total) for i in range(10)]
+pa = [[[(data[a][b][c]+1)/(total[a]+4) for c in range(4)] for b in range(64)] for a in range(10)]
+
+confMat = [[0 for a in range(10)] for b in range(10)]
+corCount = 0
+count = 0
+with open('optdigits.test') as f:
+    for line in f:
+        predC = 0
+        bestT = -1000000
+        l = line.split(',')
+        actual = int(l.pop(-1))
+        for i in range(10):
+            t = log(pc[i])
+            for j in range(len(l)):
+                val = max(int(l[i])-1, 0)
+                t += log(pa[i][j][int(val/4)])
+            if t > bestT:
+                bestT = t
+                predC = i
+        confMat[actual][predC] += 1
+        if actual == predC:
+            corCount += 1
+        count += 1
+
+for i in range(10):
+    print confMat[i]
+print "Accuracy:", corCount / count
+

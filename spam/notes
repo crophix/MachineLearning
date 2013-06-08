@@ -2,3 +2,9 @@ Q1:
     accuracy: 89.62% (3299 correct, 382 incorrect)
     precision: 90.48%
     recall: 82.39%
+
+Q2:
+    accuracy: 87.42%
+
+Q3:
+    accuracy: 87.80%
